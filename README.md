@@ -1,13 +1,11 @@
 # ejs
-98.10.30  read as html | from tinyProjects
+98.10.30  load img | from tinyProjects
 
 [This is final video!](...)
 
 ## Overview: index.ejs
+call photos in ejs
 ```
-<%- description %>
-<%= description %>
+<% if(artwork.length>0){ ... %>
+<% for(i=0; i<=artwork.length; ... %>
 ```
-line 1 read as text/plain
-
-line 2 read as text/html
